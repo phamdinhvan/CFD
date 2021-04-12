@@ -1,0 +1,12 @@
+export const DECREASE = "DECREASE";
+export const INCREASE = "INCREASE";
+export const SHOW_LOGIN = "SHOW_LOGIN";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const MAKE_LOGIN = "MAKE_LOGIN";
+export const HANDLE_LOGOUT = "HANDLE_LOGOUT";
+export const SET_LOADING = "SET_LOADING";
+export const AUTH_FETCH_LOGIN = "AUTH_FETCH_LOGIN";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+export const UPDATE_USER = "UPDATE_USER";
+export const AUTH_FETCH_COURSE = "AUTH_FETCH_COURSE";
+export const HANDLE_COURSE = "HANDLE_COURSE";
