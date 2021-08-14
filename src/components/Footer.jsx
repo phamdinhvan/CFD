@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -13,13 +15,13 @@ export default function Footer() {
             </p>
             <p className="phone">(+84) 98 9596 913</p>
             <div className="social">
-              <a className="fb" href="#">
+              <a className="fb" href="/">
                 {/* <img src="img/icon-fb.svg" alt=""> */}
               </a>
-              <a className="gmail" href="#">
+              <a className="gmail" href="/">
                 {/* <img src="img/icon-gmail.svg" alt=""> */}
               </a>
-              <a className="skype" href="#">
+              <a className="skype" href="/">
                 {/* <img src="img/icon-skype.svg" alt=""> */}
               </a>
             </div>
@@ -28,22 +30,22 @@ export default function Footer() {
             <nav>
               <ul>
                 <li>
-                  <a href="#">Trang chủ</a>
+                  <Link to="/">Trang chủ</Link>
                 </li>
                 <li>
-                  <a href="#">Khóa học</a>
+                  <Link to="/courses">Khóa học</Link>
                 </li>
                 <li>
-                  <a href="#">Thanh toán</a>
+                  <Link to="payment">Thanh toán</Link>
                 </li>
                 <li>
-                  <a href="#">Điều khoản</a>
+                  <Link to="/question">Câu hỏi</Link>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <a href="#" className="back-to-top">
+        <a href="/" className="back-to-top">
           <div className="line" />
           CUỘN LÊN
         </a>

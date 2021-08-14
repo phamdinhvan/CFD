@@ -54,7 +54,7 @@ export default function useFormValidate(initialValue, validate) {
       let r = rule[i];
       if (r.required) {
         if (!form[i] || /^\s+$/.test(form[i])) {
-          err[i] = message?.[i]?.required || "please fill something";
+          err[i] = message?.[i]?.required || "Please fill something";
           continue;
         }
       }

@@ -1,6 +1,6 @@
 export default function Project({ name, makeby, img_background }) {
   return (
-    <a href="#" className="item col-md-6">
+    <a href="/" className="item col-md-6">
       <div className="wrap">
         <div className="cover">
           <img src={img_background} alt="" />

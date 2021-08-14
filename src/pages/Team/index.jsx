@@ -5,10 +5,9 @@ export default function Team() {
       <section>
         <div className="container">
           <div className="top">
-            <h2 className="main-title">cfd team</h2>
+            <h2 className="main-title">CFD Team</h2>
             <p className="top-des">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. aliquam
-              tincidunt elementum sem non luctus
+            Chúng ta không phải một lớp học, những thành viên CFD là một TEAM, cùng học hỏi và hỗ trợ lẫn nhau dưới sự hướng dẫn từ những người đồng sáng lập CFD.
             </p>
           </div>
           <div className="list row">
@@ -34,36 +33,6 @@ export default function Team() {
               type="teacher"
               name="Quân Đặng"
               img_coach="/img/quan-cfd.jpg"
-              info="Founder &amp; Creative Front-End Developer"
-            />
-            <Member
-              type="member"
-              name="Huỳnh Anh Kiệt"
-              img_coach="/img/Tran-Nghia.jpg"
-              info="Founder &amp; Creative Front-End Developer"
-            />
-            <Member
-              type="member"
-              name="Trần Tùng"
-              img_coach="/img/Tran-Nghia.jpg"
-              info="Founder &amp; Creative Front-End Developer"
-            />
-            <Member
-              type="member"
-              name="Việt Quang"
-              img_coach="/img/Tran-Nghia.jpg"
-              info="Founder &amp; Creative Front-End Developer"
-            />
-            <Member
-              type="member"
-              name="Trần Nghĩa"
-              img_coach="/img/Tran-Nghia.jpg"
-              info="Founder &amp; Creative Front-End Developer"
-            />
-            <Member
-              type="member"
-              name="Nguyễn Văn Thái An"
-              img_coach="/img/Tran-Nghia.jpg"
               info="Founder &amp; Creative Front-End Developer"
             />
           </div>

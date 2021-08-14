@@ -4,9 +4,9 @@ export default function CourseList({ online, offline }) {
     <>
       <section className="section-courseoffline">
         <div className="container">
+        <h2 className="main-title">Chào mừng bạn đến với CFD</h2>
           <p className="top-des">
-            The readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+          Nơi có những khóa học thực chiến Front-End Dev và UX/UI Design, kết nối và chia sẻ kinh nghiệm giúp bạn có đầy đủ kỹ năng thực tế để tạo ra những sản phẩm sáng tạo, tinh tế và phù hợp.
           </p>
           <div className="textbox">
             <h2 className="main-title">Khoá Học online</h2>

@@ -7,9 +7,8 @@ import { updateData, setLoading } from "../../../redux/action/user";
 export default function Info() {
   const { dataUser, loading } = useSelector((state) => state.user);
 
-  const [load, setLoad] = useState(false);
   const dispatch = useDispatch();
-  const { form, inputChange, onSubmit, error, setForm } = useFormValidate(
+  const { form, inputChange, onSubmit, error } = useFormValidate(
     {
       ...dataUser,
     },
@@ -29,13 +28,13 @@ export default function Info() {
       },
       message: {
         name: {
-          required: "please fill your name",
+          required: "Please fill your name",
         },
         phone: {
-          required: "please fill your phone",
+          required: "Please fill your phone",
         },
         fb: {
-          required: "please fill your face",
+          required: "Please fill your face",
         },
       },
       // option: {

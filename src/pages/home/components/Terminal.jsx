@@ -71,7 +71,7 @@ export default function Terminal({ review, loading }) {
                     </div>
                     <div className="content">{review[i].content}</div>
                     <div className="bottom">
-                      <a href="#" target="_blank">
+                      <a href={e.fb} target="_blank">
                         <img src="img/facebook.svg" alt="" />
                       </a>
                       <span>{review.date}</span>

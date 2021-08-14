@@ -73,7 +73,7 @@ export default function CourseDetail() {
                 <p className="intro">{state.course.teacher.description}</p>
                 <p>
                   <strong>Website:</strong>{" "}
-                  <a href="#">{state.course.teacher.website}</a>
+                  <a href="/">{state.course.teacher.website}</a>
                 </p>
               </div>
             </div>

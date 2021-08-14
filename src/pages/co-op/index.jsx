@@ -32,13 +32,13 @@ export default React.forwardRef(function CoopPage(props, ref) {
       },
       message: {
         name: {
-          required: "please fill your name",
+          required: "Please fill your name",
         },
         email: {
-          required: "please fill your email",
+          required: "Please fill your email",
         },
         phone: {
-          required: "please fill your phone",
+          required: "Please fill your phone",
         },
       },
       option: {
@@ -52,7 +52,7 @@ export default React.forwardRef(function CoopPage(props, ref) {
       <main className="register-course" id="main">
         <section className="section-1 wrap container">
           <Head
-            title="Hợp Tác Cùng CFD"
+            title="Liên Hệ Với CFD"
             des="Đừng ngần ngại liên hệ với CFD để cùng nhau tạo ra những sản phẩm giá trị, cũng như việc hợp tác với các đối tác tuyển dụng và công ty trong và ngoài nước."
           />
           <div className="div">

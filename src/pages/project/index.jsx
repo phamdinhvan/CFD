@@ -8,8 +8,7 @@ export default function ProjectPage() {
         <div className="container">
           <Head
             title="Dự Án"
-            des="Lorem ipsum dolor sit amet consectetur adipiscing elit. aliquam
-        tincidunt elementum sem non luctus"
+            des="Những dự án của thành viên CFD"
           />
           <div className="list row">
             <Project

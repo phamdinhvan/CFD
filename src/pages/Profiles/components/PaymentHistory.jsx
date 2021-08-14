@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
-import userApi from "../../../api/userApi";
+import {  useState } from "react";
 export default function PaymentHisory() {
-  const [state, setState] = useState();
   //Hỏi anh Vương chỗ này
   // useEffect(async () => {
   //   const res = await userApi.getProfilePayment();

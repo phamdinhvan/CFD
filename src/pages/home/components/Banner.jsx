@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Banner() {
   return (
     <div className="banner jarallax">
@@ -5,7 +7,7 @@ export default function Banner() {
         <div className="content">
           <h2 className="title">Thực Chiến</h2>
           <h2 className="title">Tạo ra sản phẩm có giá trị</h2>
-          <div className="btn main round">KHÓA HỌC</div>
+          <Link to="/courses" className="btn main round">KHÓA HỌC</Link>
         </div>
       </div>
       <div className="jarallax-img">

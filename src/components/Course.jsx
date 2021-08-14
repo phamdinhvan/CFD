@@ -38,7 +38,7 @@ export default function Course({
             </div>
           </Link>
           <div className="info" to={`/course/${slug}`}>
-            <Link className="name" href="#">
+            <Link className="name" to={`/course/${slug}`}>
               {title}
             </Link>
             <p className="des">{short_description}</p>

@@ -29,7 +29,7 @@ export default function Login() {
       },
       message: {
         username: {
-          required: "please fill your username",
+          required: "Please fill your username",
         },
         password: {
           // pattern:
@@ -104,7 +104,7 @@ export default function Login() {
                 </div>
                 <p>Nhớ mật khẩu</p>
               </label>
-              <a href="#" className="forget">
+              <a href="/" className="forget">
                 Quên mật khẩu?
               </a>
             </div>
@@ -124,16 +124,6 @@ export default function Login() {
               <img src="/img/close-icon.png" alt="" />
             </div>
           </div>
-          {/* username form */}
-          <div className="ct_username">
-            <h2 className="title">Đặt lại mật khẩu</h2>
-            <input type="text" placeholder="username" />
-            <div className="btn rect main btn-next">Tiếp theo</div>
-            <div className="back" />
-            {/* <div className="/close" onClick={hideLogin}>
-              <img src="img/close-icon.png" alt="" />
-            </div> */}
-          </div>
         </div>
       </div>
       {/* <div className="popup-form popup-login" style={{ display: "none" }}>
@@ -144,7 +134,7 @@ export default function Login() {
             Google
           </div>
           <p className="policy">
-            Bằng việc đăng kí, bạn đã đồng ý <a href="#">Điều khoản bảo mật</a>{" "}
+            Bằng việc đăng kí, bạn đã đồng ý <a href="/">Điều khoản bảo mật</a>{" "}
             của CFD
           </p>
           <div className="close">

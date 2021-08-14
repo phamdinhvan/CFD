@@ -33,11 +33,11 @@ function CourseItem({ img_course, name, des, img_coach, name_coach, slug }) {
   return (
     <div className="col-md-6 course">
       <div className="wrap">
-        <a href="#" className="cover">
+        <a href="/" className="cover">
           <img src={img_course} alt="" />
         </a>
         <div className="info">
-          <a href="#" className="name">
+          <a href="/" className="name">
             {name}
           </a>
           <p className="des">{des}</p>

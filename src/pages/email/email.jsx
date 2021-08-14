@@ -27,7 +27,7 @@ export default function Email() {
             <p>
               Bạn đã đăng ký khóa học{" "}
               <a
-                href="#"
+                href="/"
                 target="_blank"
                 style={{ textDecoration: "none", color: "#00afab" }}
               >
@@ -37,7 +37,7 @@ export default function Email() {
               thông qua số điện thoại của bạn.
             </p>
             <a
-              href="#"
+              href="/"
               target="_blank"
               className="btn"
               style={{

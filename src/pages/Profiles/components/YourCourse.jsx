@@ -39,7 +39,7 @@ function Course({ img_course, name, date, time, NoVideo, students, rating }) {
         <img src={img_course} alt="" />
       </div>
       <div className="info">
-        <a href="#" className="name">
+        <a href="/" className="name">
           {name}
         </a>
         <div className="date">{date}</div>

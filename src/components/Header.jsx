@@ -35,7 +35,7 @@ export default function Header() {
             {login ? (
               <div className="have-login">
                 <div className="account">
-                  <a href="#" className="info">
+                  <a href="/" className="info">
                     <div className="name">{dataUser.name}</div>
                     <div className="avatar">
                       <img

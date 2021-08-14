@@ -55,16 +55,16 @@ export default function Register() {
       },
       message: {
         name: {
-          required: "please fill your name",
+          required: "Please fill your name",
         },
         email: {
-          required: "please fill your email",
+          required: "Please fill your email",
         },
         phone: {
-          required: "please fill your phone",
+          required: "Please fill your phone",
         },
         urlFace: {
-          required: "please fill your face",
+          required: "Please fill your face",
         },
       },
       option: {
@@ -207,7 +207,7 @@ export default function Register() {
           <div className="sub">
             <a
               onClick={handleSelect}
-              href="#"
+              href="/"
               data-value="Banker-payment"
               data-name="payment"
             >
@@ -215,7 +215,7 @@ export default function Register() {
             </a>
             <a
               onClick={handleSelect}
-              href="#"
+              href="/"
               data-value="Craft-payment"
               data-name="payment"
             >

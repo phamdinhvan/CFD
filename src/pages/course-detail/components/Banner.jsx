@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import { numberWithCommas } from "../../../utils/format";
-export default function Banner({ title, money, count_video, opening_time }) {
+export default function Banner({ title, money, count_video, opening_time, slug }) {
   return (
     <section className="banner style2" style={{ background: "#d0f9ff" }}>
       <div className="container">
@@ -13,9 +14,9 @@ export default function Banner({ title, money, count_video, opening_time }) {
               <strong>Thời lượng:</strong> {count_video}
             </div>
           </div>
-          <div className="btn white round" style={{ background: "#70b6f1" }}>
+          <Link to={`/register/${slug}`} className="btn white round" style={{ background: "#70b6f1" }}>
             đăng ký
-          </div>
+          </Link>
         </div>
       </div>
       <div className="bottom">
